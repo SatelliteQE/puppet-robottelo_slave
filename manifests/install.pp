@@ -4,6 +4,7 @@ class robottelo_slave::install {
     'python-devel',
     'python-pip',
     'python-virtualenv',
+    'rubygem-hammer_cli_katello',
   ])
 
   ensure_packages(['hammer_cli_katello'], {
